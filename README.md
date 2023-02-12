@@ -14,7 +14,11 @@ At the ending of the training process, Discrimintor loss was -1.164(theoreticall
 
 Model testing was done by the following process.
 
-1. ㄴㄴ
-2. ㄴㄴ
+1. Find out the anomalous data within the validation dataset
+2. Compute similarity scores of each test data with each anomalous validation data
+3. If similar enough, predict the target value of the masked part to show the same behavior (Same price change direction)
+4. If they actually showed the same behavior, then regard it as the correct prediction
+
+Test accuracy, evaluated by the above process, turned out to be 83.92%
 
 
