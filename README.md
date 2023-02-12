@@ -11,11 +11,14 @@ Model was trained and tested by the December 2021 BTC-USDT data downloaded from 
 
 Training was conducted on the GPU server provided by the course instructors, and took approiximately 2000 seconds.
 
+
 <img width="516" alt="image" src="https://user-images.githubusercontent.com/88704958/218301838-1225b56f-ce96-4f83-ab6c-e690bf3a2672.png">
+
 
 At the ending of the training process, Discrimintor loss was -1.164(theoretically -ln4 is optimal), and Generator loss was -0.697(therotically -ln2 is optimal).
 
 Predicted values of the model showed the similar distribution with the original values.
+
 <img width="355" alt="image" src="https://user-images.githubusercontent.com/88704958/218301899-87998bb9-ab23-475a-b322-04aa8e17e23a.png">
 
 
